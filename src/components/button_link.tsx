@@ -10,9 +10,9 @@ interface ButtonProps {
 const Button = ({ text, icon, link, icon_fake }: ButtonProps) => {
     return (
         <a href={link} className="button" target="_blank" rel="noopener noreferrer">
-            <span className="icon">{icon}</span>
+            <span className="icon"><i className={icon}></i></span>
             {text}
-            <span className="icon">{icon_fake}</span>
+            <span className="icon"><i className={icon_fake}></i></span>
         </a>
     );
 };
