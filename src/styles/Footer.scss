@@ -1,0 +1,15 @@
+.footer{
+  display: flex !important;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+
+  a{
+    padding: 2rem 2rem ;
+    color: white;
+    font-size: 24px;
+  }
+  a:hover{
+    color: #cfcfcf;
+  }
+}
