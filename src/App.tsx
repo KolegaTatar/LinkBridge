@@ -1,9 +1,10 @@
 import "./index.scss";
+import Footer from "./sites/Footer.tsx";
 
 function App(){
   return (
       <div className="container">
-        <h1>My Linktree</h1>
+        <Footer></Footer>
       </div>
   );
 }
