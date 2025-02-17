@@ -1,34 +1,68 @@
 .header {
   text-align: center;
-  padding: 20px;
+  padding: 1.25rem;
   color: white;
 }
 
 .profile-container {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
+
+  @media (max-width: 768px) {
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    margin-bottom: 0.75rem;
+  }
 }
 
 .profile-image {
-  padding: 25px 29px;
-  font-size: 60px;
+  padding: 1.25rem 1.5rem;
+  font-size: 3.125rem;
   border-radius: 50%;
-  border: 4px solid white;
+  border: 0.25rem solid white;
   object-fit: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   color: #ececec;
-}
 
+  @media (max-width: 768px) {
+    padding: 1rem 1.25rem;
+    font-size: 2.5rem;
+    border: 0.2rem solid white;
+  }
+
+  @media (max-width: 480px) {
+    padding: 0.75rem 1rem;
+    font-size: 2rem;
+  }
+}
 
 .name {
   margin: 0;
-  font-size: 22px;
-  padding-bottom: 5px;
+  font-size: 1.375rem;
+  padding-bottom: 0.3125rem;
+
+  @media (max-width: 768px) {
+    font-size: 1.25rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.125rem;
+  }
 }
 
 .title {
-  margin: 5px 0 0;
-  font-size: 17px;
+  margin: 0.3125rem 0 0;
+  font-size: 1.0625rem;
   font-weight: normal;
+
+  @media (max-width: 768px) {
+    font-size: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.875rem;
+  }
 }
