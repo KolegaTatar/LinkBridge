@@ -1,12 +1,11 @@
 import '../styles/Header.scss';
-import profileImage from '../images/profile.png'
 
 const Header = () => {
     console.log('Header component rendered');
     return (
         <header className="header">
             <div className="profile-container">
-                <img src={profileImage} alt="Profile" className="profile-image"/>
+                <i className="fa-regular fa-user profile-image"></i>
             </div>
             <h1 className="name">Wiktor Tatarynowicz</h1>
             <h3 className="title">Junior Full-stack Developer/ Software</h3>

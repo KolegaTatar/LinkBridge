@@ -12,6 +12,7 @@ const Main = () => {
                     icon_fake="fa-brands fa-linkedin whiteFa"/>
             <Button text="E-Mail" icon="fa-solid fa-envelope" link="mailto:test@example.com"
                     icon_fake="fa-solid fa-envelope whiteFa"/>
+
         </main>
     );
 };
